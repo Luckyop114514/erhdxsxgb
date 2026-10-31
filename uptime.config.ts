@@ -16,7 +16,7 @@ const workerConfig: WorkerConfig = {
   monitors: [
     {
       id: 'mc_wan',
-      name: 'wan.yfmc.xyz',
+      name: '主IP地址 wan.yfmc.xyz',
       method: 'TCP_PING',
       target: 'wan.yfmc.xyz:25565',
       tooltip: 'Minecraft 服务器 wan.yfmc.xyz',
@@ -24,7 +24,7 @@ const workerConfig: WorkerConfig = {
     },
     {
       id: 'mc_play',
-      name: 'play.yfmc.xyz',
+      name: '备IP地址-1 play.yfmc.xyz',
       method: 'TCP_PING',
       target: 'play.yfmc.xyz:25565',
       tooltip: 'Minecraft 服务器 play.yfmc.xyz',
@@ -32,7 +32,7 @@ const workerConfig: WorkerConfig = {
     },
     {
       id: 'mc_p',
-      name: 'p.yfmc.xyz',
+      name: '备IP地址-2 p.yfmc.xyz',
       method: 'TCP_PING',
       target: 'p.yfmc.xyz:25565',
       tooltip: 'Minecraft 服务器 p.yfmc.xyz',
